@@ -19,6 +19,7 @@ public class MovieService {
     @Autowired
     private MovieRepository movieRepository;
     public List<Movie> allMovies(){
+//        hai
         return movieRepository.findAll();
     }
 
